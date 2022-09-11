@@ -6,7 +6,7 @@ list1 = ['name','pname','cityname','adname','address','location','type','tel']#!
 list2 = ['110100','110100','','']#!!poi
 list3 = ['210200','210200','','']#!!ad code
 for n in range(210200,210200):#!!ad code
-    list2.append(n)
+    list3.append(n)
 list2 = poi.clean(list2)
 list3 = poi.clean(list3)
 
