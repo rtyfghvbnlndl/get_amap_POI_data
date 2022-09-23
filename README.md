@@ -1,5 +1,6 @@
 # get_amap_POI_data
 下载高德地图webapi中的POI<br>
+### <a href="https://github.com/rtyfghvbnlndl/get_amap_poi_plus">纯前端版链接</a>，不用安装环境，只需要浏览器。
 ## 说明
 修改list1 = ['name','pname','cityname','address','location','tel','id']，即可指定获得的数据类型和顺序<br>
 ### list2可以填入多个poi code，list3可填入多个ad code，range里填另外的ad code范围（比如210201，210211），关键词用|分隔。
