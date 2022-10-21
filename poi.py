@@ -1,9 +1,8 @@
-import json
 import requests
 import jsonpath
 
-def poi(keywords,types,city,citylimit,children,offset,page,extensions,sig,callback):
-    key = '输入key才能用'
+def poi(keywords,types,city,citylimit,children,offset,page,extensions,sig,callback,if_end):
+    key = '输入'
     if if_end == 666:
         return[]
     else:
